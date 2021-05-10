@@ -2,6 +2,10 @@
 	"name": "projeto-01",
 	"version": "1.0.0",
 	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watchAll"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"@types/jest": "^26.0.23",
